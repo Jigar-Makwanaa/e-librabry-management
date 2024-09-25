@@ -1,0 +1,200 @@
+// view-book section start 
+
+.view-book-section {
+    padding: 40px 0px;
+
+    .container {
+        .row {
+            .main {
+                justify-content: space-between;
+
+                .left-side {
+                    width: 22%;
+
+                    .box {
+
+                        .content {
+                            .img {
+                                img {
+                                    width: 100%;
+                                    border-radius: 12px;
+                                    display: block;
+                                }
+                            }
+                        }
+
+                        .btn {
+                            padding-top: 20px;
+
+                            button {
+                                width: 100%;
+                                background-color: #4892bd;
+                                color: white;
+                                font-size: 16px;
+                                font-weight: 600;
+                                text-transform: capitalize;
+                                border: 0px;
+                                border-radius: 10px;
+                                padding: 8px 12px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+
+                .right-side {
+                    width: 75%;
+
+                    .details {
+                        justify-content: space-between;
+                        padding-bottom: 30px;
+
+                        .title {
+                            width: 80%;
+
+                            h2 {
+                                margin: 0px;
+                                padding-bottom: 10px;
+                                font-size: 35px;
+                                text-transform: capitalize;
+                            }
+
+                            h4 {
+                                margin: 0px;
+                                font-size: 20px;
+                            }
+                        }
+
+                        .edit {
+                            width: 10%;
+
+                            button {
+                                width: 100%;
+                                background-color: green;
+                                color: white;
+                                font-size: 16px;
+                                font-weight: 600;
+                                text-transform: capitalize;
+                                border: 0px;
+                                border-radius: 10px;
+                                padding: 8px 12px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+
+                    .publishd {
+                        padding-bottom: 30px;
+
+                        .box {
+                            padding-bottom: 10px;
+
+                            h3 {
+                                margin: 0px;
+                                padding-bottom: 10px;
+                            }
+
+                            h4 {
+                                margin: 0px;
+                            }
+                        }
+                    }
+
+                    .book-details {
+                        h2 {
+                            text-transform: uppercase;
+                            margin: 0px;
+                            padding-bottom: 15px;
+                            color: rgb(66, 35, 35);
+                        }
+
+                        .description {
+                            h3 {
+                                margin: 0px;
+                                padding: 10px 0px;
+                                font-weight: 300;
+
+                                span {
+                                    color: #000e16;
+                                    display: inline-block;
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+// view-book section end
+
+// add-book section start 
+
+.add-book-section {
+    padding: 40px 0px;
+
+    .container {
+        .row {
+            .main {
+                justify-content: center;
+                .form {
+                    width: 50%;
+
+                    form {
+                        padding: 15px ;
+
+                        .head {
+                            padding-bottom: 20px;
+                            h2 {
+                                margin: 0px;
+                                text-transform: capitalize;
+                                font-size: 25px;
+                                font-weight: 600;
+                                text-align: center;
+                            }
+                        }
+
+                        .book-img,
+                        .book-name,
+                        .author,
+                        .pub-date,
+                        .publisher,
+                        .btn {
+                            padding: 10px 0px;
+                            input {
+                                padding: 12px 10px;
+                                width: 96%;
+                                border-radius: 12px;
+                                border: 0px;
+                                color: #4892bd;
+                                font-size: 16px;
+                                font-weight: 600;
+                            }
+                        }
+                        
+                        .btn {
+                            button {
+                                width: 100%;
+                                background-color: #4892bd;
+                                color: white;
+                                font-size: 16px;
+                                font-weight: 600;
+                                text-transform: capitalize;
+                                border: 0px;
+                                border-radius: 10px;
+                                padding: 12px 12px;
+                                cursor: pointer;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+// add-book section end

@@ -1,0 +1,150 @@
+.view-book-section {
+  padding: 40px 0px;
+}
+.view-book-section .container .row .main {
+  justify-content: space-between;
+}
+.view-book-section .container .row .main .left-side {
+  width: 22%;
+}
+.view-book-section .container .row .main .left-side .box .content .img img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+.view-book-section .container .row .main .left-side .box .btn {
+  padding-top: 20px;
+}
+.view-book-section .container .row .main .left-side .box .btn button {
+  width: 100%;
+  background-color: #4892bd;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 0px;
+  border-radius: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.view-book-section .container .row .main .right-side {
+  width: 75%;
+}
+.view-book-section .container .row .main .right-side .details {
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.view-book-section .container .row .main .right-side .details .title {
+  width: 80%;
+}
+.view-book-section .container .row .main .right-side .details .title h2 {
+  margin: 0px;
+  padding-bottom: 10px;
+  font-size: 35px;
+  text-transform: capitalize;
+}
+.view-book-section .container .row .main .right-side .details .title h4 {
+  margin: 0px;
+  font-size: 20px;
+}
+.view-book-section .container .row .main .right-side .details .edit {
+  width: 10%;
+}
+.view-book-section .container .row .main .right-side .details .edit button {
+  width: 100%;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 0px;
+  border-radius: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.view-book-section .container .row .main .right-side .publishd {
+  padding-bottom: 30px;
+}
+.view-book-section .container .row .main .right-side .publishd .box {
+  padding-bottom: 10px;
+}
+.view-book-section .container .row .main .right-side .publishd .box h3 {
+  margin: 0px;
+  padding-bottom: 10px;
+}
+.view-book-section .container .row .main .right-side .publishd .box h4 {
+  margin: 0px;
+}
+.view-book-section .container .row .main .right-side .book-details h2 {
+  text-transform: uppercase;
+  margin: 0px;
+  padding-bottom: 15px;
+  color: rgb(66, 35, 35);
+}
+.view-book-section .container .row .main .right-side .book-details .description h3 {
+  margin: 0px;
+  padding: 10px 0px;
+  font-weight: 300;
+}
+.view-book-section .container .row .main .right-side .book-details .description h3 span {
+  color: #000e16;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.add-book-section {
+  padding: 40px 0px;
+}
+.add-book-section .container .row .main {
+  justify-content: center;
+}
+.add-book-section .container .row .main .form {
+  width: 50%;
+}
+.add-book-section .container .row .main .form form {
+  padding: 15px;
+}
+.add-book-section .container .row .main .form form .head {
+  padding-bottom: 20px;
+}
+.add-book-section .container .row .main .form form .head h2 {
+  margin: 0px;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+.add-book-section .container .row .main .form form .book-img,
+.add-book-section .container .row .main .form form .book-name,
+.add-book-section .container .row .main .form form .author,
+.add-book-section .container .row .main .form form .pub-date,
+.add-book-section .container .row .main .form form .publisher,
+.add-book-section .container .row .main .form form .btn {
+  padding: 10px 0px;
+}
+.add-book-section .container .row .main .form form .book-img input,
+.add-book-section .container .row .main .form form .book-name input,
+.add-book-section .container .row .main .form form .author input,
+.add-book-section .container .row .main .form form .pub-date input,
+.add-book-section .container .row .main .form form .publisher input,
+.add-book-section .container .row .main .form form .btn input {
+  padding: 12px 10px;
+  width: 96%;
+  border-radius: 12px;
+  border: 0px;
+  color: #4892bd;
+  font-size: 16px;
+  font-weight: 600;
+}
+.add-book-section .container .row .main .form form .btn button {
+  width: 100%;
+  background-color: #4892bd;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 0px;
+  border-radius: 10px;
+  padding: 12px 12px;
+  cursor: pointer;
+}/*# sourceMappingURL=pages.css.map */

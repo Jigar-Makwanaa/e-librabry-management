@@ -1,0 +1,42 @@
+header {
+  padding: 30px;
+}
+header .container .row .main {
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .row .main .logo img {
+  width: 189px;
+}
+header .container .row .main .menu .search input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 0px;
+  color: #4892bd;
+  font-weight: 600;
+}
+header .container .row .main .menu .browse {
+  padding: 0px 15px;
+}
+header .container .row .main .menu .browse select {
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 300;
+}
+header .container .row .main .menu .browse select option {
+  border-radius: 12px;
+  padding: 2px 0px;
+}
+header .container .row .main .menu .add-books button {
+  background-color: #4892bd;
+  color: white;
+  border-radius: 12px;
+  padding: 10px 15px;
+  border: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}/*# sourceMappingURL=header.css.map */
