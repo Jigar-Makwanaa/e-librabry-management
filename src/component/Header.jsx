@@ -15,17 +15,17 @@ const Header = () => {
 
     // searchName start 
 
-    useEffect(()=>{
-        if(searchName != '' ) {
-            const searchData = record.filter((val)=>{
-                return val.bookname.toLowerCase().includes(searchName.toLowerCase())
-            })
-            setMovieList(searchData)
-        }
-        else {
-            setMovieList(allMovieData)
-        }
-    },[searchName])
+    // useEffect(()=>{
+    //     if(searchName != '' ) {
+    //         const searchData = record.filter((val)=>{
+    //             return val.bookname.toLowerCase().includes(searchName.toLowerCase())
+    //         })
+    //         setMovieList(searchData)
+    //     }
+    //     else {
+    //         setMovieList(allMovieData)
+    //     }
+    // },[searchName])
 
     // searchName end
 
