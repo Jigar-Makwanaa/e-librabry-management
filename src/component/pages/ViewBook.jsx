@@ -27,6 +27,25 @@ const ViewBook = () => {
 
     }, [record])
 
+    // borrow & return start
+    const handleBorrowReturn = (index) => {
+        const updateData = record.map((val, i) => {
+            if (i === index) {
+                return { ...val, borrowed: !val.borrowed };
+            }
+            return val
+        })
+
+        console.log(updateData);
+        
+
+        setRecord(updateData);
+
+        localStorage.setItem('user', JSON.stringify(updateData))
+
+    }
+    // borrow & return end
+
 
     return (
         <>
@@ -49,7 +68,9 @@ const ViewBook = () => {
                                                     </div>
                                                 </div>
                                                 <div className="btn">
-                                                    <button>Borrow</button>
+                                                    <button onClick={(index) => handleBorrowReturn(index)}>
+                                                        {val.borrowd ? 'borrow' : 'return'}
+                                                    </button>
                                                 </div>
                                             </div>
                                         )

@@ -26,7 +26,7 @@ const AddBook = () => {
         e.preventDefault()
 
         let obj = {
-            id, img, bookname, author, publishd, publisher
+            id, img, bookname, author, publishd, publisher, borrowed: false,
         }
 
         let allRecord = [...record, obj]

@@ -12,6 +12,7 @@ const Header = () => {
 
         setRecord(allData)
     }, [])
+    
 
     // searchName start 
 
@@ -20,12 +21,12 @@ const Header = () => {
     //         const searchData = record.filter((val)=>{
     //             return val.bookname.toLowerCase().includes(searchName.toLowerCase())
     //         })
-    //         setMovieList(searchData)
+    //         setSearchName(searchData)
+
+    //         console.log(searchData);
+            
     //     }
-    //     else {
-    //         setMovieList(allMovieData)
-    //     }
-    // },[searchName])
+    // },[searchName])x
 
     // searchName end
 
